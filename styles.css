@@ -1,0 +1,43 @@
+body * {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.red-square {
+    background-color: coral;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 1s;
+
+}
+.blue-square {
+    background-color: seagreen;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 1s;
+}
+.button {
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: 37px;
+}
+.hide {
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ;
+ }
